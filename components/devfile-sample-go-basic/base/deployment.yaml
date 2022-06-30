@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic
     spec:
       containers:
-      - image: quay.io/mkovarik/devfile-sample-go-basic
+      - image: quay.io/mkovarik/devfile-sample-go-basic:084b4990df2f7ea58ba11e0f875a2513c619e4eb
         imagePullPolicy: Always
         name: container-image
         resources: {}
